@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
       height: 240,
       child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          itemBuilder: (context, index) => PopularityItem(),
+          itemBuilder: (context, index) => const PopularityItem(),
           separatorBuilder: (context, index) => const SizedBox(width: 20),
           itemCount: 2),
     );
@@ -246,7 +246,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => CatalogScreen(),
+                  builder: (context) => const CatalogScreen(),
                 ),
               );
             },

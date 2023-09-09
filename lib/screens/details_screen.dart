@@ -1,7 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:mazen_project/constants.dart';

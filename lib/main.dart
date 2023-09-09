@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mazen_project/screens/catalog_screen.dart';
-import 'package:mazen_project/screens/details_screen.dart';
+
 import 'package:mazen_project/screens/home_screen.dart';
 
 void main() {
